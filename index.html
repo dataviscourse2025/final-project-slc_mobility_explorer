@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Salt Lake City Mobility Explorer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Salt Lake City Mobility Explorer: City in Motion</h1>
+    <div id="slider-container">
+        <label for="time-slider">Time of Day: <span id="hour-label">08:00</span></label>
+        <input type="range" id="time-slider" min="0" max="23" value="8">
+        <button id="play-btn">Play</button>
+    </div>
+    <div id="legend">
+        <span>Low</span>
+        <div class="color-bar"></div>
+        <span>High</span>
+    </div>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
