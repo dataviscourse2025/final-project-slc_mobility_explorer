@@ -1,0 +1,1235 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.87842607485491,
+          40.78235755633036
+        ]
+      },
+      "properties": {
+        "NAME": "Constitution Blvd @ 3662 S",
+        "MODE": "Bus",
+        "LINE": "Bus 39",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.88575994686366,
+          40.76304949433529
+        ]
+      },
+      "properties": {
+        "NAME": "Gentile St @ 357 E    (Layton)",
+        "MODE": "Bus",
+        "LINE": "Bus 628",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          3,
+          5,
+          6,
+          7,
+          7,
+          7,
+          6,
+          5,
+          3,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8871725805079,
+          40.77391512339244
+        ]
+      },
+      "properties": {
+        "NAME": "Harrison Blvd @ 4605 S   (Ogden)",
+        "MODE": "Bus",
+        "LINE": "Bus ",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.87777874134952,
+          40.75309325104879
+        ]
+      },
+      "properties": {
+        "NAME": "Constitution Blvd @ 3662 S",
+        "MODE": "Bus",
+        "LINE": "Bus 39",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.91730585834084,
+          40.73624325665405
+        ]
+      },
+      "properties": {
+        "NAME": "Constitution Blvd @ 3662 S",
+        "MODE": "Bus",
+        "LINE": "Bus 39",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.91954096179118,
+          40.73355411397877
+        ]
+      },
+      "properties": {
+        "NAME": "Fort Ln @ 70 S    (Layton)",
+        "MODE": "Bus",
+        "LINE": "Bus 470",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8662887602771,
+          40.77888909438998
+        ]
+      },
+      "properties": {
+        "NAME": "Constitution Blvd @ 3601 S",
+        "MODE": "Bus",
+        "LINE": "Bus 513",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          7,
+          12,
+          17,
+          20,
+          22,
+          23,
+          22,
+          20,
+          17,
+          12,
+          7,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.90354901858075,
+          40.77276300017091
+        ]
+      },
+      "properties": {
+        "NAME": "Fort Ln @ 70 S    (Layton)",
+        "MODE": "Bus",
+        "LINE": "Bus 470",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.90131470546096,
+          40.76435111820107
+        ]
+      },
+      "properties": {
+        "NAME": "Main St @ 150 S (NB)",
+        "MODE": "Bus",
+        "LINE": "Bus 850",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.90804162818289,
+          40.787411113336496
+        ]
+      },
+      "properties": {
+        "NAME": "Constitution Blvd @ 3601 S",
+        "MODE": "Bus",
+        "LINE": "Bus 513",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          4,
+          7,
+          10,
+          12,
+          13,
+          13,
+          13,
+          12,
+          10,
+          7,
+          4,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.91937912589154,
+          40.79124298089483
+        ]
+      },
+      "properties": {
+        "NAME": "Fort Ln @ 70 S    (Layton)",
+        "MODE": "Bus",
+        "LINE": "Bus 470",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          6,
+          6,
+          5,
+          4,
+          3,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.91310342875191,
+          40.741824331177284
+        ]
+      },
+      "properties": {
+        "NAME": "Main St @ 150 S (NB)",
+        "MODE": "Bus",
+        "LINE": "Bus 850",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8919465168579,
+          40.766598889058464
+        ]
+      },
+      "properties": {
+        "NAME": "Constitution Blvd @ 3601 S",
+        "MODE": "Bus",
+        "LINE": "Bus 513",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          7,
+          12,
+          17,
+          21,
+          23,
+          24,
+          23,
+          21,
+          17,
+          12,
+          7,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.87147644693641,
+          40.73454828023622
+        ]
+      },
+      "properties": {
+        "NAME": "Main St @ 50 S      (Kaysville)",
+        "MODE": "Bus",
+        "LINE": "Bus 470",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.91414970643632,
+          40.760013236055364
+        ]
+      },
+      "properties": {
+        "NAME": "Main St @ 150 S (NB)",
+        "MODE": "Bus",
+        "LINE": "Bus 850",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          8,
+          9,
+          10,
+          11,
+          10,
+          9,
+          8,
+          6,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.86869526218725,
+          40.76741507346534
+        ]
+      },
+      "properties": {
+        "NAME": "University Hospital",
+        "MODE": "Bus",
+        "LINE": "Bus 6",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          9,
+          17,
+          23,
+          27,
+          30,
+          31,
+          30,
+          27,
+          23,
+          17,
+          9,
+          2,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.89425389013068,
+          40.78830898564982
+        ]
+      },
+      "properties": {
+        "NAME": "Main St @ 50 S      (Kaysville)",
+        "MODE": "Bus",
+        "LINE": "Bus 470",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.87504434578372,
+          40.7495984967293
+        ]
+      },
+      "properties": {
+        "NAME": "State St / 150 S (SB)",
+        "MODE": "Bus",
+        "LINE": "Bus 850",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          6,
+          6,
+          5,
+          4,
+          3,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.88037246292322,
+          40.798238871490334
+        ]
+      },
+      "properties": {
+        "NAME": "University Hospital",
+        "MODE": "Bus",
+        "LINE": "Bus 6",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          4,
+          7,
+          10,
+          12,
+          13,
+          14,
+          13,
+          12,
+          10,
+          7,
+          4,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.90445808990957,
+          40.746462539182815
+        ]
+      },
+      "properties": {
+        "NAME": "Main St @ 50 S      (Kaysville)",
+        "MODE": "Bus",
+        "LINE": "Bus 470",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.88530321602599,
+          40.72541416714281
+        ]
+      },
+      "properties": {
+        "NAME": "State St / 150 S (SB)",
+        "MODE": "Bus",
+        "LINE": "Bus 850",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.88979597674856,
+          40.78282180539459
+        ]
+      },
+      "properties": {
+        "NAME": "University Hospital",
+        "MODE": "Bus",
+        "LINE": "Bus 6",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          65,
+          111,
+          151,
+          182,
+          201,
+          207,
+          201,
+          182,
+          151,
+          111,
+          65,
+          15,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.91576249447009,
+          40.78686868269908
+        ]
+      },
+      "properties": {
+        "NAME": "Main St @ 799 N",
+        "MODE": "Bus",
+        "LINE": "Bus 470",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.88327484229195,
+          40.78554165847406
+        ]
+      },
+      "properties": {
+        "NAME": "State St / 150 S (SB)",
+        "MODE": "Bus",
+        "LINE": "Bus 850",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          6,
+          10,
+          14,
+          17,
+          19,
+          20,
+          19,
+          17,
+          14,
+          10,
+          6,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.87881580081068,
+          40.760268092615306
+        ]
+      },
+      "properties": {
+        "NAME": "Redwood Rd / 700 N (SB)",
+        "MODE": "Bus",
+        "LINE": "Bus 217",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          5,
+          9,
+          12,
+          15,
+          17,
+          17,
+          17,
+          15,
+          12,
+          9,
+          5,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.90486078893451,
+          40.79859266470522
+        ]
+      },
+      "properties": {
+        "NAME": "Main St @ 799 N",
+        "MODE": "Bus",
+        "LINE": "Bus 470",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.89092321281906,
+          40.758318421624494
+        ]
+      },
+      "properties": {
+        "NAME": "200 S / 300 W (EB)",
+        "MODE": "Bus",
+        "LINE": "Bus 6",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          15,
+          25,
+          35,
+          42,
+          46,
+          48,
+          46,
+          42,
+          35,
+          25,
+          15,
+          3,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.87911889231319,
+          40.73574220478445
+        ]
+      },
+      "properties": {
+        "NAME": "Redwood Rd / 700 N (SB)",
+        "MODE": "Bus",
+        "LINE": "Bus 217",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          3,
+          4,
+          4,
+          5,
+          5,
+          5,
+          4,
+          4,
+          3,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.89773034555691,
+          40.723201814782435
+        ]
+      },
+      "properties": {
+        "NAME": "200 S / 300 W (EB)",
+        "MODE": "Bus",
+        "LINE": "Bus 6",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          6,
+          11,
+          14,
+          17,
+          19,
+          20,
+          19,
+          17,
+          14,
+          11,
+          6,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8993006228116,
+          40.78296238672225
+        ]
+      },
+      "properties": {
+        "NAME": "Main St @ 799 N",
+        "MODE": "Bus",
+        "LINE": "Bus 470",
+        "hourly_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          3,
+          4,
+          4,
+          5,
+          4,
+          4,
+          3,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}
