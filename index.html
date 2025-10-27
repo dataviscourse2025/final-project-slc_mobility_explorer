@@ -9,7 +9,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Salt Lake City Mobility Explorer: City in Motion</h1>
+    <div id="mode-switch-container" style="text-align:center;margin-bottom:10px;">
+      <label>Mode:</label>
+      <button id="traffic-btn" class="mode-btn mode-active">Traffic</button>
+      <button id="transit-btn" class="mode-btn">Transit</button>
+    </div>
+    <h1>Salt Lake City Mobility Explorer</h1>
+    <div id="transit-legend" style="display:flex; justify-content:center; align-items:center; gap:12px; margin-bottom:1em;">
+      <span style="display:inline-block; width:16px; height:16px; border-radius:50%; background:#008ecf; border:1px solid #aaa;"></span> TRAX
+      <span style="display:inline-block; width:16px; height:16px; border-radius:50%; background:#E8961F; border:1px solid #aaa;"></span> Bus
+      <span style="display:inline-block; width:16px; height:16px; border-radius:50%; background:#00B379; border:1px solid #aaa;"></span> FrontRunner
+      <span style="margin-left:22px; font-size:11px; color:#666;">Circle size ~ ridership volume</span>
+    </div>
     <div id="slider-container">
         <label for="time-slider">Time of Day: <span id="hour-label">08:00</span></label>
         <input type="range" id="time-slider" min="0" max="23" value="8">
