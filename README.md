@@ -12,12 +12,6 @@ Open `index.html` in your browser. Toggle between Traffic and Transit modes, use
 **Transit Mode**: Animated circles showing ridership at stations
 - 🟢 FrontRunner, 🔴 TRAX Red, 🔵 TRAX Blue, 🟢 TRAX Green, 🟠 Bus stops
 
-## 🛠️ Tech Stack
-
-- HTML/CSS/JavaScript + Leaflet.js
-- Python for data processing
-- GeoJSON for spatial data
-
 ## 🔧 Setup
 
 1. Install Python dependencies:
