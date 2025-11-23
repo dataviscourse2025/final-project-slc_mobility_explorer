@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <title>Salt Lake City Mobility Explorer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <!-- D3.js -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <!-- Note: OpenStreetMap tiles are used - no API key required -->
 </head>
 <body>
     <div id="mode-switch-container" style="text-align:center;margin-bottom:10px;">
@@ -35,7 +36,7 @@
         <span>High</span>
     </div>
     <div id="map"></div>
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <div id="tooltip" style="position: absolute; background: white; padding: 8px; border: 1px solid #ccc; border-radius: 4px; pointer-events: none; opacity: 0; z-index: 1000;"></div>
     <script src="script.js"></script>
 </body>
 </html>
