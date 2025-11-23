@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Salt Lake City Mobility Explorer — Transit View</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div style="text-align:center;margin-bottom:10px;">
+    <a href="index.html" style="margin-right:12px;">◀ Back to Traffic</a>
+    <strong>Transit View</strong>
+  </div>
+  <h1>Salt Lake City — Transit Explorer</h1>
+
+  <div id="transit-legend" style="display:flex; justify-content:center; align-items:center; gap:12px; margin-bottom:1em;">
+    <span style="display:inline-block; width:16px; height:16px; border-radius:50%; background: black;"></span> TRAX
+    <span style="display:inline-block; width:16px; height:16px; border-radius:50%; background:black; margin-left:8px;"></span> Bus
+    <span style="display:inline-block; width:16px; height:16px; border-radius:50%; background:black; margin-left:8px;"></span> FrontRunner
+    <span style="margin-left:22px; font-size:11px; color:#666;">Circle size ~ ridership volume</span>
+  </div>
+
+  <div id="slider-container">
+      <label for="time-slider">Time of Day: <span id="hour-label">08:00</span></label>
+      <input type="range" id="time-slider" min="0" max="23" value="8">
+      <button id="play-btn">Play</button>
+  </div>
+  <div id="map"></div>
+  <div id="tooltip" style="position: absolute; background: white; padding: 8px; border: 1px solid #ccc; border-radius: 4px; pointer-events: none; opacity: 0; z-index: 1000;"></div>
+
+  <script src="script.js"></script>
+  <script>
+    // Call transit init after script loads to ensure transit-only view
+    if (window.initTransitView) window.initTransitView();
+  </script>
+</body>
+</html>
