@@ -16,14 +16,14 @@ Below I list what I'm handing in (my authored code, generated data, and third-pa
    - `README.md`, `Process Book.pdf`, `Project Proposal - DS4630.pdf` — Documentation and project writeups.
    - `Transportation Mobility Data.zip` - The datasets for this project
 
-- Third-party libraries and external services (not included; referenced via CDN or used during data prep):
+- Third-party libraries and external services:
    - D3.js v7 (used in `index.html` via CDN) — visualization and DOM manipulation.
    - Python packages (used when running the data conversion scripts): `pandas`, `shapely`.
    - Data sources: UDOT traffic counts, Utah Open Data Portal (UTA ridership). Raw CSVs are not included in this repo (only the processed GeoJSON samples).
 
 ## Project URLs (replace placeholders with final links if you host the site)
 
-- Live demo: https://your-username.github.io/final-project-slc_mobility_explorer/
+- Live demo: https://dataviscourse2025.github.io/final-project-slc_mobility_explorer/
 - Screencast video (required): 
 
 If you haven't hosted the site yet, open `index.html` locally in your browser (modern browsers with ES6 support are recommended).
