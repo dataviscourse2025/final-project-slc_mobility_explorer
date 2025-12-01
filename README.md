@@ -1,45 +1,72 @@
 # Salt Lake City Mobility Explorer
 
-Interactive web visualization showing Salt Lake City's traffic and transit patterns throughout the day.
+This repository contains the final project for the DS 4630 Data Science Visualization course: an interactive web visualization that explores Salt Lake City's traffic and transit patterns across hours of the day.
 
-## 🚀 Quick Start
+Below I list what I'm handing in (my authored code, generated data, and third-party libraries/tools used), project URLs (live demo & screencast), and notes on non-obvious UI features.
 
-Open `index.html` in your browser. Toggle between Traffic and Transit modes, use the time slider to see hourly patterns.
+## What I'm handing in
 
-## 📊 Features
+- Author-written code and assets (included in this repo):
+   - `index.html` — Main web interface and entry point.
+   - `script.js` — Map rendering, time slider, animation, and interaction logic.
+   - `style.css` — Page styling and legend UI.
+   - `csv_to_geojson_hourly.py`, `rail_csv_to_geojson_v2.py`, `bus_csv_to_geojson.py`, `combine_transit_data.py` — Data processing scripts used to convert raw CSV ridership/traffic files into hourly GeoJSON files.
+   - `transit_combined_hourly.geojson`, `traffic_hourly_slc_sample.geojson`, `rail_ridership_hourly_sample.geojson`, `bus_ridership_hourly_sample.geojson` — Sample, generated GeoJSON used by the visualization.
+   - `Salt_Lake_City_Boundary.geojson` — Boundary used to constrain map visuals.
+   - `README.md`, `Process Book.pdf`, `Project Proposal - DS4630.pdf` — Documentation and project writeups.
+   - `Transportation Mobility Data.zip` - The datasets for this project
 
-**Traffic Mode**: Animated road heatmap (yellow = low, red = high congestion)
-**Transit Mode**: Animated circles showing ridership at stations
-- 🟢 FrontRunner, 🔴 TRAX Red, 🔵 TRAX Blue, 🟢 TRAX Green, 🟠 Bus stops
+- Third-party libraries and external services:
+   - D3.js v7 (used in `index.html` via CDN) — visualization and DOM manipulation.
+   - Python packages (used when running the data conversion scripts): `pandas`, `shapely`.
+   - Data sources: UDOT traffic counts, Utah Open Data Portal (UTA ridership). Raw CSVs are not included in this repo (only the processed GeoJSON samples).
 
-## 🔧 Setup
+## Project URLs (replace placeholders with final links if you host the site)
 
-1. Install Python dependencies:
-   ```bash
-   pip install shapely pandas
-   ```
+- Live demo: https://dataviscourse2025.github.io/final-project-slc_mobility_explorer/
+- Screencast video (required): 
 
-2. Generate data:
-   ```bash
-   python csv_to_geojson_hourly.py
-   python rail_csv_to_geojson_v2.py
-   python bus_csv_to_geojson.py
-   python combine_transit_data.py
-   ```
+If you haven't hosted the site yet, open `index.html` locally in your browser (modern browsers with ES6 support are recommended).
 
-3. Open `index.html` in browser
+## Quick Start / How to run
 
-## 📁 Key Files
+1. (Optional) Regenerate GeoJSON from CSVs if you have the raw CSVs and want fresh data:
 
-- `index.html` - Main interface
-- `script.js` - Map logic
-- `transit_combined_hourly.geojson` - Transit data
-- `traffic_hourly_slc_sample.geojson` - Traffic data
+```bash
+pip install pandas shapely
+python csv_to_geojson_hourly.py
+python rail_csv_to_geojson_v2.py
+python bus_csv_to_geojson.py
+python combine_transit_data.py
+```
 
-## 📈 Data Sources
+2. Open `index.html` in your browser (double-click or serve the folder with a simple static server). The visual should load the included sample GeoJSON files by default.
 
-- UDOT Traffic Data (AADT)
-- Utah Open Data Portal (UTA Ridership)
-- Salt Lake City Boundary
+## Non-obvious UI features and notes
 
-Built for DS 4630 Data Science Visualization course.
+- Mode switching:
+   - The top control toggles between Traffic and Transit modes. Traffic is the default. The Transit button opens a dedicated `transit.html` view to simplify the transit-focused layout and legend.
+
+- Time slider and animation:
+   - The time slider at the top controls the hour of day (0–23). The `Play` button animates hours sequentially.
+   - The hour label next to the slider shows the current hour in HH:00 format.
+
+- Legends and symbology:
+   - Traffic mode uses a color ramp (low=yellow to high=red) shown in the legend. The color scale maps per-segment congestion or hourly traffic counts to the color bar.
+   - Transit mode renders stops/stations as circles sized by ridership at the selected hour. The transit legend groups vehicle types (FrontRunner, TRAX lines, Bus) and uses color to distinguish modes.
+
+- Tooltip:
+   - Hovering over a road segment (traffic mode) or a station (transit mode) shows a tooltip with the name and the hourly value used for the visual (count or ridership). The tooltip is positioned near the cursor and hides when not hovering.
+
+- Data completeness:
+   - The included GeoJSON files are samples to make the site runnable without the original raw CSVs. If you regenerate data from CSVs, make sure output filenames match the ones referenced in the code (`traffic_hourly_slc_sample.geojson`, `transit_combined_hourly.geojson`, etc.).
+
+## Files changed / generated by me in development
+
+- I authored `script.js`, the Python conversion scripts, and the HTML/CSS files in this repo. Data files were generated with those scripts; raw external CSVs are not included here.
+
+## Contact / Author
+
+Author: Minh Le, Shreesh Srivastava
+Course: DS 4630 — Data Science Visualization
+
